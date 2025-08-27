@@ -1,5 +1,4 @@
-#TASK - 1
-## Unemployment Analysis
+#TASK 1 -  Unemployment Analysis
 
 ## Overview
 This project analyzes unemployment trends using real-world datasets. The goal is to identify patterns, seasonal changes, and factors affecting unemployment rates over time. The project uses data cleaning, visualization, and machine learning to extract meaningful insights.
