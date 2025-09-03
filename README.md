@@ -1,40 +1,61 @@
-# TASK 1 -  Unemployment Analysis
+# CodeAlpha Tasks Repository
 
-## Overview
-This project analyzes unemployment trends using real-world datasets. The goal is to identify patterns, seasonal changes, and factors affecting unemployment rates over time. The project uses data cleaning, visualization, and machine learning to extract meaningful insights.
-
----
-
-## Task 1 – Unemployment Data Analysis
-### Description
-The first stage of the project focused on understanding the unemployment dataset and building a foundation for further tasks. This involved data preprocessing, exploratory data analysis (EDA), and visualization.
-
-### Tech Stack
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-
-### Key Contributions
-- Cleaned and preprocessed raw unemployment data for analysis.  
-- Conducted exploratory data analysis (EDA) to uncover trends across regions, industries, and time.  
-- Created visualizations (line charts, bar graphs, heatmaps) to show unemployment variations.  
-- Identified patterns such as seasonal unemployment and regional disparities.  
-
-### Results
-- Established clear understanding of unemployment rate fluctuations.  
-- Highlighted regions/sectors with consistently higher unemployment.  
-- Produced visual insights that will guide predictive modeling in upcoming tasks.  
+This repository contains the tasks completed as part of my CodeAlpha internship. Each task is organized into its own folder with code, requirements, and analysis files.
 
 ---
 
-## How to Run
+## 📂 Tasks
 
-### Prerequisites
-- Python 3.8 or above  
-- Jupyter Notebook (optional but recommended)  
-- Install required Python libraries:  
+### **Task 1: Unemployment Analysis**
+- **Folder:** `unemployment-analysis`
+- **Description:**  
+  An exploratory data analysis project studying the impact of COVID-19 lockdowns on unemployment rates.  
+- **Key Features:**
+  - Time-series analysis of unemployment rates.  
+  - Visualizations highlighting lockdown periods and their effects.  
+  - Jupyter Notebook (`analysis.ipynb`) with detailed step-by-step analysis.  
+- **How to Run:**
+  1. Navigate to the folder:
+     ```bash
+     cd unemployment-analysis
+     ```
+  2. Install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+  3. Open the notebook:
+     ```bash
+     jupyter notebook analysis.ipynb
+     ```
 
+---
+
+### **Task 2: Iris Classification**
+- **Folder:** `iris_classification`
+- **Description:**  
+  A machine learning project building a classification model for the Iris dataset.  
+- **Key Features:**
+  - Trained classification models (Logistic Regression, Decision Tree, Random Forest, etc.).  
+  - Model comparison based on test accuracy.  
+  - Serialized model (`iris_model.pkl`) for reuse.  
+- **How to Run:**
+  1. Navigate to the folder:
+     ```bash
+     cd iris_classification
+     ```
+  2. Install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+  3. Run the notebook to train and evaluate:
+     ```bash
+     jupyter notebook
+     ```
+
+---
+
+##  How to Use
+Clone the repository:
 ```bash
-pip install -r requirements.txt
-
+git clone https://github.com/emmanualll/codealpha_tasks.git
+cd codealpha_tasks
