@@ -57,5 +57,5 @@ This repository contains the tasks completed as part of my CodeAlpha internship.
 ##  How to Use
 Clone the repository:
 ```bash
-git clone https://github.com/emmanualll/codealpha_tasks.git
+git clone https://github.com/anadoki/codealpha_tasks.git
 cd codealpha_tasks
